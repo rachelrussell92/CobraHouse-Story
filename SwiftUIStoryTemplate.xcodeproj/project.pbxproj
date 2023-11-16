@@ -18,6 +18,7 @@
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
 		631689C52B05933B00240D80 /* PoolOfBlood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631689C42B05933B00240D80 /* PoolOfBlood.swift */; };
 		631689D12B062DE000240D80 /* vm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631689D02B062DE000240D80 /* vm.swift */; };
+		78AA7BD12B06815400270317 /* cobraGirl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78AA7BD02B06815400270317 /* cobraGirl.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
 		631689C42B05933B00240D80 /* PoolOfBlood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolOfBlood.swift; sourceTree = "<group>"; };
 		631689D02B062DE000240D80 /* vm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vm.swift; sourceTree = "<group>"; };
+		78AA7BD02B06815400270317 /* cobraGirl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cobraGirl.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		5DE6F68B2AFAE49B004ABB4F /* Chapter5 */ = {
 			isa = PBXGroup;
 			children = (
+				78AA7BD02B06815400270317 /* cobraGirl.jpg */,
 				5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */,
 			);
 			path = Chapter5;
@@ -204,6 +207,7 @@
 			files = (
 				5DE6F6772AFADF08004ABB4F /* Preview Assets.xcassets in Resources */,
 				5DE6F6742AFADF08004ABB4F /* Assets.xcassets in Resources */,
+				78AA7BD12B06815400270317 /* cobraGirl.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
