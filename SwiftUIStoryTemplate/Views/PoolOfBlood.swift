@@ -34,7 +34,7 @@ struct PoolOfBlood: View {
                             Circle()
                                 .foregroundStyle(Color.red)
                                 .offset(x:IsBloodAnimated2 ? 125: -15 ,y: -30 )
-                                .scaleEffect(CGSize(width: 1.0, height:IsBloodAnimated3 ? 1.0 : 0.85))
+                                .scaleEffect(CGSize(width: 1.0, height:IsBloodAnimated3 ? 1.0 : 0.94))
                                 .frame(width: 100)
                             Circle()
                                 .foregroundStyle(Color.red)
@@ -77,7 +77,7 @@ struct PoolOfBlood: View {
                 
             }
             /*blood level*/
-            withAnimation(Animation.easeIn(duration: 50.0).repeatForever(autoreverses: true)){
+            withAnimation(Animation.easeIn(duration: 45.0).repeatForever(autoreverses: true)){
                 IsBloodAnimated = true
             }
             withAnimation(Animation.easeIn(duration: 22.0).repeatForever(autoreverses: true)){
