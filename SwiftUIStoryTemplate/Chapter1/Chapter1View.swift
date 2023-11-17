@@ -15,7 +15,11 @@ struct Chapter1View: View {
 //                .ignoresSafeArea()
             PoolOfBlood()
             VStack{
-                
+                Text("Chapter 1")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
+                    .bold()
+                    .padding(.top, 30)
                 TabView{
                     ForEach (pages, id: \.self)
                     { page in
@@ -28,15 +32,16 @@ struct Chapter1View: View {
                                     .foregroundStyle(isTextGlowing ? .white : .red)
                                     .shadow(color:Color.red,radius:isTextGlowing ? 100 : 0 )
                                     .frame(width: 250))
+                            .onAppear(){
+                                withAnimation(.easeInOut(duration: 2).repeatForever(autoreverses: true)) {
+                                    isTextGlowing.toggle()
+                                }
+                                vm.speak(Story: pages[1])
+                                
+                            }
                     }
                     
-                    .onAppear(){
-                        withAnimation(.easeInOut(duration: 2).repeatForever(autoreverses: true)) {
-                            isTextGlowing.toggle()
-                        }
-                        vm.speak(Story: pages[1])
-                        
-                    }
+                    
                     
                 }
                 .tabViewStyle(.page)
